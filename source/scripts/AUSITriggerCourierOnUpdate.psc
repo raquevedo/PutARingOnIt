@@ -1,1 +1,6 @@
-Scriptname AUSITriggerCourierOnUpdate extends ReferenceAlias  
+Scriptname AUSITriggerCourierOnUpdate extends Quest
+
+
+Event OnUpdateGameTime()
+    SetStage(45)
+endEvent
